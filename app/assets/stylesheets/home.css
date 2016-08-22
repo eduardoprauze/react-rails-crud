@@ -1,7 +1,36 @@
+h1{
+  margin: 50px 50px 50px 0;
+}
+h3{
+  margin-left: 10px;
+}
 .email{
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 10px;
+
 }
 .box-user{
   float: left;
   width: 200px;
+}
+.form{
+  padding: 10px;
+}
+input{
+  border: none;
+  border-bottom: solid 1px #ccc;
+  margin: 10px;
+}
+button{
+  color: #222;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px
+}
+.user-box{
+  border: solid 1px #ccc;
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 10px
 }

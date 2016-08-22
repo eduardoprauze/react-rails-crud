@@ -16,7 +16,7 @@ var NewUser = React.createClass({
   },
   render() {
     return (
-      <div>
+      <div className='form'>
         <input type='text' ref='name' placeholder='Name' />
         <input type='text' ref='email' placeholder='Email' />
         <button onClick={this.handleClick}> Submit </button>

@@ -16,7 +16,7 @@ var User = React.createClass({
       var name = this.state.editable ? <input type='text' ref='name' defaultValue={this.props.user.name} /> : <h3>{this.props.user.name}</h3>
       var email = this.state.editable ? <input type='text' ref='email' defaultValue={this.props.user.email} /> : <p className='email' >{this.props.user.email}</p>
       return (
-        <div>
+        <div className='user-box'>
           { name }
           { email }
           <button onClick={this.handleEdit}> {this.state.editable ? 'Submit' : 'Edit' }</button>
