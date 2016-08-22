@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# react-rails-crud
+
+CRUD application with Rails 5 and React.js
