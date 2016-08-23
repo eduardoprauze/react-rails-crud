@@ -1,11 +1,7 @@
 # README
 
-Example CRUD Application using React.js and Rails 5
+Sample CRUD Application using React.js and Rails 5
 
-# SET UP
+## Contributing
 
-
-=======
-# react-rails-crud
-
-CRUD application with Rails 5 and React.js
+Bug reports and pull requests are welcome on GitHub at https://github.com/eduardoprauze/react-rails-crud.
